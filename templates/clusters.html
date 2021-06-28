@@ -10,39 +10,31 @@
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
-<body>
-<!-- Navigation-->
-<div class="container-fluid pt-3">
-    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark  fixed-top">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/visualizations">Visualizations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/clusters">Analysis</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="/mexican_states">Data</a>
-            </li>
-          </ul>
-    </nav>
-</div>
-<br>
-    <div></div>
+<body style="background-color: rgb(207, 228, 190)">
+
+
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 col-sm-2">México Crop Clusters Visualizations</span>
+          <a class="col-sm-6"></a>
+          <a href="/visualizations">
+            Heatmap Visualization
+          </a>
+          <a href="/">
+            Home
+          </a>
+
+        </div>
+      </nav>
+      <br>
+
+    <div class="container-fluid">
 
         <div class="row">
             <div class="col-sm-3">
@@ -73,7 +65,10 @@
                         <option value='4'>4</option>
                         <option value='5'>5</option>
                         <option value='6'>6</option>
-                        <option value='7'>7</option> 
+                        <option value='7'>7</option>
+                        
+                        chitl</option>
+
                     </select>
                 </form>
             </div>
@@ -101,6 +96,9 @@
 
         <br><br>
 
+        
+
+        
     <!-- API key -->
     <script type="text/javascript" src="../static/js/config.js"></script>
     <!-- Leaflet JS -->
